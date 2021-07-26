@@ -40,7 +40,7 @@ public class CustomAdapter extends ArrayAdapter {
 
         // Set values to the TextView to display the corresponding information
         tvTitle.setText(currentVersion.getTitle());
-        tvDate.setText(currentVersion.getDateString());
+        tvDate.setText(currentVersion.toString());
 
         return rowView;
     }
